@@ -66,9 +66,7 @@ h1 {
     text-decoration: none;
     color: var(--paragraph-color);
    }
-    /* section{
-      margin-bottom: 120px;
-    } */
+
     .primary-btn{
       color:white;
       background-color: var(--primary-color);
@@ -87,13 +85,10 @@ h1 {
       background-color: var(--primary-color);
 
     }
-<<<<<<< HEAD
 
-=======
     #header-container{
       background-color: #000;
     }
->>>>>>> 24165369dd2a48fb3ecce4ebf9d6d3a55a121e26
     .nav-item > a{
       color: var(--paragraph-color) !important;
     }
@@ -106,17 +101,16 @@ h1 {
 
     }
 
-    /* .navlink.active{
-      color: var(--primary-color) !important;
-
-    } */
     .navbar-nav .nav-item .nav-link.active {
       color: var(--primary-color) !important;
-      font-weight: bold; /* Optional: Makes the active link bold */
+      font-weight: bold; 
   }
 
+.dropdown-item:hover{
+  color: var(--primary-color)!important;
+}
 
-/* side-nav */
+/* sidenav */
 
 .sidenav {
   position: fixed;
@@ -401,13 +395,12 @@ h1 {
       display: block;
       margin-bottom: 27px;
      }
-  
-  
+
     .cs_portfolio.cs_style_1 a {
       text-decoration: none;
       color: var(--heading-color);
     }
-    
+
     .cs_portfolio.cs_style_1 .cs_portfolio_title {
       margin-bottom: 8px;
     }
@@ -424,8 +417,7 @@ h1 {
   height: 100px;
   position: relative;
   z-index: 999999;
- 
- 
+
 }
 
 .carousel-primary,
@@ -436,8 +428,6 @@ h1 {
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
-  
-
 
 }
 
@@ -457,12 +447,7 @@ h1 {
   animation: scroll-horizontal 20s linear infinite;
   animation-delay: 10s;
 }
-/* .logo-container{
-  width: 300px;
-  height: 300px;
-  
-  
-} */
+
 .logo-container img{
  width: 150px;
  height: 100%;
