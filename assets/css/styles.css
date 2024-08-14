@@ -232,6 +232,7 @@ h1 {
     #services{
       background-color: #000000;
       position: relative;
+      overflow: hidden;
     }
     .bg-splash{
         position: absolute;
@@ -350,6 +351,7 @@ h1 {
       background-color: #000000;
       position: relative;
       z-index: 1000;
+      overflow: hidden;
     }
 
     .bg-splash-portfolio{
@@ -363,6 +365,7 @@ h1 {
       object-fit: cover;
       transform: rotate(45deg);
       z-index: -999;
+      
     }
     .bg-splash-portfolio-two{
       position: absolute;
@@ -410,14 +413,14 @@ h1 {
 
 #tech-stack{
   overflow: hidden;
-  z-index: 99999999;
 }
 
 .scroll-container {
   height: 100px;
   position: relative;
-  z-index: 999999;
-
+  /* z-index: 999999; */
+ 
+ 
 }
 
 .carousel-primary,
